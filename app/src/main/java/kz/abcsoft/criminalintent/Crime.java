@@ -41,4 +41,8 @@ public class Crime {
     public boolean isSolved(){
         return mSolved ;
     }
+
+    public String toString(){
+        return mTitle ;
+    }
 }
